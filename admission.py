@@ -9,7 +9,7 @@ import pandas as pd
 import tensorflow
 from tensorflow import keras 
 
-df=pd.read_csv(r"D:\CSE5000-Thesis\deep learning\data\Admission_Predict.csv")
+df=pd.read_csv(r"Admission_Predict.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
